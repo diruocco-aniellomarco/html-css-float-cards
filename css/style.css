@@ -1,24 +1,20 @@
+/* GENERIC */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Lilita One', cursive;
 }
 
 .center {
     margin: 20px auto;
     display: block;
-    max-width: 60%;
-    text-align: center;
+    max-width: 70%;
+    text-align: center;    
 }
 
-.card {
-    height: 100px;
-    border: 1px solid black;
-    width: 300px;
-    float: left;
-    margin: 20px 30px;
-
-}
+/* UTILS */
 
 .clearfix::after {
     content: "";
@@ -26,8 +22,22 @@
     clear: both;
 }
 
-.contain{
+/* HEADER */
+header>h1 {
+    color: #e53170;
+}
+
+/* PROFILES */
+.profiles{
     margin-top: 30px;
+}
+
+.card {
+    height: 100px;
+    width: 310px;
+    float: left;
+    margin: 20px 30px;
+    background-color: #0f0e17;
 }
 
 .foto {
@@ -38,5 +48,11 @@
 .targhette {
     text-align: left;
     padding: 15px 5px;
-    float: left;
+    /* float: left; */
+    font-size: 14px;
+    color: white; */
 }
+
+a {
+    text-decoration: none;
+} 
