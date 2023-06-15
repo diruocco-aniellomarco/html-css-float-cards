@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    margin: 20px auto;
+    display: block;
+    max-width: 60%;
+    text-align: center;
+}
+
+.card {
+    height: 100px;
+    border: 1px solid black;
+    width: 300px;
+    float: left;
+    margin: 20px 30px;
+
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.contain{
+    margin-top: 30px;
+}
+
+.foto {
+    height: 100px;
+    float: left;
+}
+
+.targhette {
+    text-align: left;
+    padding: 15px 5px;
+    float: left;
+}
