@@ -34,9 +34,9 @@ header>h1 {
 
 .card {
     height: 100px;
-    width: 310px;
+    width: 31%;
     float: left;
-    margin: 20px 30px;
+    margin: 20px 30px 20px 0px;
     background-color: #0f0e17;
 }
 
