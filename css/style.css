@@ -48,9 +48,9 @@ header>h1 {
 .targhette {
     text-align: left;
     padding: 15px 5px;
-    /* float: left; */
+    float: left;
     font-size: 14px;
-    color: white; */
+    color: white; 
 }
 
 a {
